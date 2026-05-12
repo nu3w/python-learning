@@ -1,0 +1,10 @@
+{
+    "stella": {
+        "password": "123",
+        "balance": 1000.0
+    },
+    "mary": {
+        "password": "123",
+        "balance": 500.0
+    }
+}

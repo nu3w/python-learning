@@ -1,0 +1,73 @@
+# Git : Version Control System
+# file/folders track on local System
+# Branches: 
+# Merge:
+
+
+# start git initialization
+git init
+
+# add file/folder/changes
+git add file_name                # if adding only 1 file
+git add .                  # add all changes at once
+
+# git log               # shows the commits
+
+# git status            # shows the current status of the directory
+
+# git config --global user.name "your_name"
+# git config --global user.email "your_email"
+
+# list all branch
+git branch
+
+# create new branch
+git branch new_branch_name
+
+# change branch
+git checkout branch_name
+
+# merge branch
+git merge branch_name
+
+# rename branch
+git branch -M main
+
+# local push to github
+git push -u origin main     # --set-upstream (-u) for first push
+git push
+
+git push origin ram
+
+# github to local
+git pull
+
+# clone the repository
+git clone https://github.com/di-a7/demo_chaitra.git
+
+# create a branch of your name
+git branch branch_name
+
+# switch to your branch
+git chechout branch_name
+
+# create a file of name: code, intor
+touch code intor
+
+# add files
+git add .
+
+# push to github
+git push origin branch_name
+
+# switch to main branch
+git chechout main
+
+# in abc.txt dia complete task
+git commit -m "Completed task in abc.txt"
+
+# push
+git push origin main
+
+# pull request: main , your_branch
+compare and pull request in github repository
